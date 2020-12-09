@@ -74,6 +74,31 @@ img{
   height: auto;
   display: block;
 }
+/*===== CLASS CSS ===== 
+.section-title{
+  position: relative;
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+.section-title::after{
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: var(--first-color);
+}*/
+.section{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
 /* ===== LAYOUT=====*/
 .bd-grid{
   max-width: 1024px;
@@ -155,5 +180,21 @@ img{
  .show{
    right: 0;
  }
+ /*===== HOME =====*/
+.home{
+  height: calc(100vh - 3rem);
+  row-gap: 1rem;
+}
+.home__data{
+  align-self: center;
+  
+}
+.home__title{
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-5);
+}
+.home__title-color{
+  color: var(--first-color);
+}
  
  

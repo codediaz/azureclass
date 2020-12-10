@@ -77,9 +77,7 @@ button{
   height: 70%;
   align-items: center;
 }
-.row h1{
-  font-size: 65px;
-}
+
 .col{
   flex-basis: 50%;
 }

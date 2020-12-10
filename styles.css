@@ -96,18 +96,17 @@ button{
 
 }
 
-.img_foot{
-  width: 200px;
-  height: auto;
 
-  
-  
 
+.footer{
+  background-color: var(--first-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
-footer{
-  position: fixed;
-  
-  
+.footer img{
+  vertical-align: middle;
 }
 /*===== BASE =====*/
 *,::before,::after{
@@ -135,6 +134,9 @@ a{
   text-decoration: none;
   color: var(--first-color);
   
+}
+p{
+  color: var(--second-colorcolor);
 }
 img{
   max-width: 100%;

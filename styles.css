@@ -8,8 +8,8 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #072e97;
-  --second-color: #0E2431;
+  --first-color: #0437c5;
+  --second-color: white;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -45,6 +45,70 @@
   --z-fixed: 100;
 }
 
+/*======CSS-PRO=====*/
+*{
+  margin: 0;
+  padding: 0;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+.container{ 
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Imagenes/background.png);
+  background-position: center;
+  background-size: cover;
+}
+button{
+  width: 180px;
+  color:#000;
+  font-size: 12px;
+  padding: 12px 0px;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: -5px;
+  cursor: pointer;
+  
+
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(Imagenes/pic-1.png);
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.img_foot{
+  width: 200px;
+  height: auto;
+
+  
+  
+
+}
+footer{
+  position: fixed;
+  
+  
+}
 /*===== BASE =====*/
 *,::before,::after{
   box-sizing: border-box;
@@ -60,6 +124,7 @@ body{
 }
 h1,h2,p{
   margin: 0;
+  
 }
 ul{
   margin: 0;
@@ -68,6 +133,8 @@ ul{
 }
 a{
   text-decoration: none;
+  color: var(--first-color);
+  
 }
 img{
   max-width: 100%;
@@ -192,6 +259,7 @@ img{
 .home__title{
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  padding-left: 5%;
 }
 .home__title-color{
   color: var(--first-color);
